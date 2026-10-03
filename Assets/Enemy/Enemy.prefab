@@ -56,7 +56,6 @@ MonoBehaviour:
   - rid: 5650217716856914041
   - rid: 5650217716856914402
   - rid: 5650217716856914802
-  - rid: 5650217716856914803
   m_OriginalGraph: {fileID: 0}
   m_IsInitialised: 0
   m_IsStarted: 0
@@ -87,17 +86,6 @@ MonoBehaviour:
           m_Value1: 14592982731251231454
         Name: PatrolPointsSize
         m_Value: 0
-    - rid: 5650217716856914803
-      type: {class: 'BlackboardVariable`1[[System.Collections.Generic.List`1[[UnityEngine.GameObject, UnityEngine.CoreModule]], mscorlib]]', ns: Unity.Behavior, asm: Unity.Behavior}
-      data:
-        GUID:
-          m_Value0: 16220265711758026652
-          m_Value1: 11301351107227434242
-        Name: PatrolPoints
-        m_Value:
-        - {fileID: 0}
-        - {fileID: 0}
-        - {fileID: 0}
 --- !u!195 &889304439472891605
 NavMeshAgent:
   m_ObjectHideFlags: 0

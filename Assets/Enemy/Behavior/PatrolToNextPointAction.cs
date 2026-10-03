@@ -42,6 +42,7 @@ public partial class PatrolToNextPointAction : Action
 
     protected override void OnEnd()
     {
+        navAgent.ResetPath();
     }
 }
 
