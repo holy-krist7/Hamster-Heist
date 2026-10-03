@@ -116,7 +116,7 @@ TextureImporter:
         width: 17
         height: 29
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -133,12 +133,12 @@ TextureImporter:
       name: jewleryThree_1
       rect:
         serializedVersion: 2
-        x: 16
+        x: 17
         y: 0
-        width: 18
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 16
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -155,12 +155,12 @@ TextureImporter:
       name: jewleryThree_2
       rect:
         serializedVersion: 2
-        x: 36
-        y: 17
-        width: 12
-        height: 14
+        x: 37
+        y: 18
+        width: 10
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -177,7 +177,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 05ad45f62537aae4ea3b129d9db731ed
     internalID: 0
     vertices: []
     indices: 

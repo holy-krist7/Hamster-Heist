@@ -1,16 +1,10 @@
 fileFormatVersion: 2
-guid: 78e3c15ec89eab1419942c28c621c285
+guid: a21ca205584c0234dba0cd8f334f841e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4734353636074565778
-    second: jewleryTwo_0
-  - first:
-      213: -1607720264852506783
-    second: jewleryTwo_1
-  - first:
-      213: -1058113503121268163
-    second: jewleryTwo_2
+      213: 4487708065891476013
+    second: statueTwoLarge_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -108,67 +102,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: jewleryTwo_0
+      name: statueTwoLarge_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 17
-        height: 29
+        width: 32
+        height: 48
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 290bd4f5c8dc3b140800000000000000
-      internalID: 4734353636074565778
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: jewleryTwo_1
-      rect:
-        serializedVersion: 2
-        x: 17
-        y: 0
-        width: 16
-        height: 25
-      alignment: 9
-      pivot: {x: 0.5, y: 0.3}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 167f44befea30b9e0800000000000000
-      internalID: -1607720264852506783
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: jewleryTwo_2
-      rect:
-        serializedVersion: 2
-        x: 37
-        y: 18
-        width: 10
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d32a9620063d051f0800000000000000
-      internalID: -1058113503121268163
+      spriteID: d22ed1385ba874e30800000000000000
+      internalID: 4487708065891476013
       vertices: []
       indices: 
       edges: []
@@ -177,7 +127,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: e878a9f18f601fb49998cae827633dce
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -187,9 +137,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      jewleryTwo_0: 4734353636074565778
-      jewleryTwo_1: -1607720264852506783
-      jewleryTwo_2: -1058113503121268163
+      statueTwoLarge_0: 4487708065891476013
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
