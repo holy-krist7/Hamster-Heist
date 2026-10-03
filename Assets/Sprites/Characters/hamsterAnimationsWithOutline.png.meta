@@ -1,0 +1,1785 @@
+fileFormatVersion: 2
+guid: fa528cf5ede6e7a46ac3512211932828
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3610151120331798575
+    second: hamsterAnimationsWithOutline_0
+  - first:
+      213: 4356378048387425279
+    second: hamsterAnimationsWithOutline_1
+  - first:
+      213: -8713664665214862154
+    second: hamsterAnimationsWithOutline_2
+  - first:
+      213: -6718675766227243513
+    second: hamsterAnimationsWithOutline_3
+  - first:
+      213: -8554982920913600984
+    second: hamsterAnimationsWithOutline_4
+  - first:
+      213: -7094801057747074512
+    second: hamsterAnimationsWithOutline_5
+  - first:
+      213: 2297315670257728257
+    second: hamsterAnimationsWithOutline_6
+  - first:
+      213: -3181145295185869038
+    second: hamsterAnimationsWithOutline_7
+  - first:
+      213: 7310799416750794319
+    second: hamsterAnimationsWithOutline_8
+  - first:
+      213: 1779723523336984622
+    second: hamsterAnimationsWithOutline_9
+  - first:
+      213: -6353016909662313279
+    second: hamsterAnimationsWithOutline_10
+  - first:
+      213: -2465501223427775015
+    second: hamsterAnimationsWithOutline_11
+  - first:
+      213: -2087505975689812982
+    second: hamsterAnimationsWithOutline_12
+  - first:
+      213: -5590580700009286086
+    second: hamsterAnimationsWithOutline_13
+  - first:
+      213: 5934979081053101495
+    second: hamsterAnimationsWithOutline_14
+  - first:
+      213: -350581880713008648
+    second: hamsterAnimationsWithOutline_15
+  - first:
+      213: 4828597047941762542
+    second: hamsterAnimationsWithOutline_16
+  - first:
+      213: -4503170545206565313
+    second: hamsterAnimationsWithOutline_17
+  - first:
+      213: -7098582086177969847
+    second: hamsterAnimationsWithOutline_18
+  - first:
+      213: -2421029067302146429
+    second: hamsterAnimationsWithOutline_19
+  - first:
+      213: -4407147053791717705
+    second: hamsterAnimationsWithOutline_20
+  - first:
+      213: 4239746743633210425
+    second: hamsterAnimationsWithOutline_21
+  - first:
+      213: -3660212318236430277
+    second: hamsterAnimationsWithOutline_22
+  - first:
+      213: -742290863456429111
+    second: hamsterAnimationsWithOutline_23
+  - first:
+      213: -7204102711750607360
+    second: hamsterAnimationsWithOutline_24
+  - first:
+      213: -5651138198299866489
+    second: hamsterAnimationsWithOutline_25
+  - first:
+      213: -1419864348657691186
+    second: hamsterAnimationsWithOutline_26
+  - first:
+      213: -8139733860116730502
+    second: hamsterAnimationsWithOutline_27
+  - first:
+      213: -4389856912821611177
+    second: hamsterAnimationsWithOutline_28
+  - first:
+      213: -1352106130025743374
+    second: hamsterAnimationsWithOutline_29
+  - first:
+      213: -1596965871164727160
+    second: hamsterAnimationsWithOutline_30
+  - first:
+      213: 8519088690818835931
+    second: hamsterAnimationsWithOutline_31
+  - first:
+      213: -8833775357525897409
+    second: hamsterAnimationsWithOutline_32
+  - first:
+      213: 5080571045248487936
+    second: hamsterAnimationsWithOutline_33
+  - first:
+      213: -2032211560046135010
+    second: hamsterAnimationsWithOutline_34
+  - first:
+      213: 7885191623943827255
+    second: hamsterAnimationsWithOutline_35
+  - first:
+      213: 236594593442799134
+    second: hamsterAnimationsWithOutline_36
+  - first:
+      213: 6512437158083685392
+    second: hamsterAnimationsWithOutline_37
+  - first:
+      213: -276919020792270391
+    second: hamsterAnimationsWithOutline_38
+  - first:
+      213: -4128297884404863735
+    second: hamsterAnimationsWithOutline_39
+  - first:
+      213: -1787673409745114343
+    second: hamsterAnimationsWithOutline_40
+  - first:
+      213: 2428161629895157901
+    second: hamsterAnimationsWithOutline_41
+  - first:
+      213: -4754951157328339121
+    second: hamsterAnimationsWithOutline_42
+  - first:
+      213: -5436329172931411211
+    second: hamsterAnimationsWithOutline_43
+  - first:
+      213: -1261238088685665168
+    second: hamsterAnimationsWithOutline_44
+  - first:
+      213: -3690876883713522519
+    second: hamsterAnimationsWithOutline_45
+  - first:
+      213: -5209107472809956933
+    second: hamsterAnimationsWithOutline_46
+  - first:
+      213: 3644725845700190220
+    second: hamsterAnimationsWithOutline_47
+  - first:
+      213: -2534609983734129468
+    second: hamsterAnimationsWithOutline_48
+  - first:
+      213: -5319832187858469535
+    second: hamsterAnimationsWithOutline_49
+  - first:
+      213: 2027622034120722552
+    second: hamsterAnimationsWithOutline_50
+  - first:
+      213: -2439140470313074681
+    second: hamsterAnimationsWithOutline_51
+  - first:
+      213: 9205293623990070371
+    second: hamsterAnimationsWithOutline_52
+  - first:
+      213: -2829430753360777012
+    second: hamsterAnimationsWithOutline_53
+  - first:
+      213: -730977813730690620
+    second: hamsterAnimationsWithOutline_54
+  - first:
+      213: -3597360926385318151
+    second: hamsterAnimationsWithOutline_55
+  - first:
+      213: 3432030165520461768
+    second: hamsterAnimationsWithOutline_56
+  - first:
+      213: 2376577965855667067
+    second: hamsterAnimationsWithOutline_57
+  - first:
+      213: 2166829640561166555
+    second: hamsterAnimationsWithOutline_58
+  - first:
+      213: 5974392348043386108
+    second: hamsterAnimationsWithOutline_59
+  - first:
+      213: -455214769809554916
+    second: hamsterAnimationsWithOutline_60
+  - first:
+      213: 8007746176944971565
+    second: hamsterAnimationsWithOutline_61
+  - first:
+      213: -2910321597042419833
+    second: hamsterAnimationsWithOutline_62
+  - first:
+      213: 354977558354603065
+    second: hamsterAnimationsWithOutline_63
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hamsterAnimationsWithOutline_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 119
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d70527feaa26edc0800000000000000
+      internalID: -3610151120331798575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamsterAnimationsWithOutline_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 119
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff3217101c6f47c30800000000000000
+      internalID: 4356378048387425279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamsterAnimationsWithOutline_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 119
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bcbef96728d21780800000000000000
+      internalID: -8713664665214862154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamsterAnimationsWithOutline_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 119
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70eeff8dcf772c2a0800000000000000
+      internalID: -6718675766227243513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamsterAnimationsWithOutline_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 119
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82e39631c58964980800000000000000
+      internalID: -8554982920913600984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamsterAnimationsWithOutline_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 119
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0328be027043a8d90800000000000000
+      internalID: -7094801057747074512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamsterAnimationsWithOutline_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 102
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10b76ae2e64b1ef10800000000000000
+      internalID: 2297315670257728257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamsterAnimationsWithOutline_7
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 102
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2178a8d553d4ad3d0800000000000000
+      internalID: -3181145295185869038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamsterAnimationsWithOutline_8
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 102
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f466093d55d257560800000000000000
+      internalID: 7310799416750794319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamsterAnimationsWithOutline_9
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 102
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2858e67d19d2b810800000000000000
+      internalID: 1779723523336984622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamsterAnimationsWithOutline_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 102
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c42787c7cc85d7a0800000000000000
+      internalID: -6353016909662313279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamsterAnimationsWithOutline_11
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 102
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d5eb4833b7c8cdd0800000000000000
+      internalID: -2465501223427775015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamsterAnimationsWithOutline_12
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 102
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a04e08c0060b703e0800000000000000
+      internalID: -2087505975689812982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamsterAnimationsWithOutline_13
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 102
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a36bac739744a62b0800000000000000
+      internalID: -5590580700009286086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamsterAnimationsWithOutline_14
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 102
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bd5b8387084d5250800000000000000
+      internalID: 5934979081053101495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamsterAnimationsWithOutline_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 85
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f9a96f03ab722bf0800000000000000
+      internalID: -350581880713008648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamsterAnimationsWithOutline_16
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 85
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eed811e9e6f920340800000000000000
+      internalID: 4828597047941762542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamsterAnimationsWithOutline_17
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 85
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f36e5f97f368181c0800000000000000
+      internalID: -4503170545206565313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamsterAnimationsWithOutline_18
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 85
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9492968d335cc7d90800000000000000
+      internalID: -7098582086177969847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamsterAnimationsWithOutline_19
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 85
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38e6f84f3e6c66ed0800000000000000
+      internalID: -2421029067302146429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamsterAnimationsWithOutline_20
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 85
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b6d5d9ca1ba6d2c0800000000000000
+      internalID: -4407147053791717705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamsterAnimationsWithOutline_21
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 85
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93c60ef333b96da30800000000000000
+      internalID: 4239746743633210425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamsterAnimationsWithOutline_22
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 85
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3032090a40543dc0800000000000000
+      internalID: -3660212318236430277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamsterAnimationsWithOutline_23
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 85
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cb59ab746ad2b5f0800000000000000
+      internalID: -742290863456429111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamsterAnimationsWithOutline_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 68
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00e3daca0c2e50c90800000000000000
+      internalID: -7204102711750607360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamsterAnimationsWithOutline_25
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 68
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78a02b9efbf1391b0800000000000000
+      internalID: -5651138198299866489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamsterAnimationsWithOutline_26
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 68
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec5540dc5e0ab4ce0800000000000000
+      internalID: -1419864348657691186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamsterAnimationsWithOutline_27
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 68
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7de58d2e2bd90f80800000000000000
+      internalID: -8139733860116730502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamsterAnimationsWithOutline_28
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 68
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 755997075681413c0800000000000000
+      internalID: -4389856912821611177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamsterAnimationsWithOutline_29
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 68
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fbff2573aa5c3de0800000000000000
+      internalID: -1352106130025743374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamsterAnimationsWithOutline_30
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 68
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 880edc2500076d9e0800000000000000
+      internalID: -1596965871164727160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamsterAnimationsWithOutline_31
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 68
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd5ed4a3702e93670800000000000000
+      internalID: 8519088690818835931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamsterAnimationsWithOutline_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3fc11d9d10286580800000000000000
+      internalID: -8833775357525897409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamsterAnimationsWithOutline_33
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 002db289270d18640800000000000000
+      internalID: 5080571045248487936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamsterAnimationsWithOutline_34
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e19f10f6a522cc3e0800000000000000
+      internalID: -2032211560046135010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamsterAnimationsWithOutline_35
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73fae032104dd6d60800000000000000
+      internalID: 7885191623943827255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamsterAnimationsWithOutline_36
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1e9fe9778d884300800000000000000
+      internalID: 236594593442799134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamsterAnimationsWithOutline_37
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 51
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01ce1a54713d06a50800000000000000
+      internalID: 6512437158083685392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamsterAnimationsWithOutline_38
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 34
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c1b0262e9f282cf0800000000000000
+      internalID: -276919020792270391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamsterAnimationsWithOutline_39
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 34
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90d2d0162f655b6c0800000000000000
+      internalID: -4128297884404863735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamsterAnimationsWithOutline_40
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 34
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91b2bbd5188e037e0800000000000000
+      internalID: -1787673409745114343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamsterAnimationsWithOutline_41
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 34
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d88622f232092b120800000000000000
+      internalID: 2428161629895157901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamsterAnimationsWithOutline_42
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 34
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4f9c1f7d15030eb0800000000000000
+      internalID: -4754951157328339121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamsterAnimationsWithOutline_43
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 34
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f2845d8b674e84b0800000000000000
+      internalID: -5436329172931411211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamsterAnimationsWithOutline_44
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 34
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 074c2b204ae2f7ee0800000000000000
+      internalID: -1261238088685665168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamsterAnimationsWithOutline_45
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 34
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a40e84870f57ccc0800000000000000
+      internalID: -3690876883713522519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamsterAnimationsWithOutline_46
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 34
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb9645e3a5885b7b0800000000000000
+      internalID: -5209107472809956933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamsterAnimationsWithOutline_47
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 17
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0025a898daa49230800000000000000
+      internalID: 3644725845700190220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamsterAnimationsWithOutline_48
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 17
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cc5e5316a143dcd0800000000000000
+      internalID: -2534609983734129468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamsterAnimationsWithOutline_49
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 17
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16db1029fc82c26b0800000000000000
+      internalID: -5319832187858469535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamsterAnimationsWithOutline_50
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 17
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 878458a4f7f832c10800000000000000
+      internalID: 2027622034120722552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamsterAnimationsWithOutline_51
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 17
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 700c5b55aae662ed0800000000000000
+      internalID: -2439140470313074681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamsterAnimationsWithOutline_52
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 17
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36ca81f77c5cfbf70800000000000000
+      internalID: 9205293623990070371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamsterAnimationsWithOutline_53
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 17
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc07d5588b7dbb8d0800000000000000
+      internalID: -2829430753360777012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamsterAnimationsWithOutline_54
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 17
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c9f3e12d8b0bd5f0800000000000000
+      internalID: -730977813730690620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamsterAnimationsWithOutline_55
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 17
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f6deed0c4b931ec0800000000000000
+      internalID: -3597360926385318151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamsterAnimationsWithOutline_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cfa54a704501af20800000000000000
+      internalID: 3432030165520461768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamsterAnimationsWithOutline_57
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b73f8db711d4bf020800000000000000
+      internalID: 2376577965855667067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamsterAnimationsWithOutline_58
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd88f66e310221e10800000000000000
+      internalID: 2166829640561166555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamsterAnimationsWithOutline_59
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfc10f5df2e49e250800000000000000
+      internalID: 5974392348043386108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamsterAnimationsWithOutline_60
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c128df42490cea9f0800000000000000
+      internalID: -455214769809554916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamsterAnimationsWithOutline_61
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2f1c4898ba312f60800000000000000
+      internalID: 8007746176944971565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamsterAnimationsWithOutline_62
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78793225de57c97d0800000000000000
+      internalID: -2910321597042419833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hamsterAnimationsWithOutline_63
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93c26f465322de400800000000000000
+      internalID: 354977558354603065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b4c8706400ccd0941a355962175878a3
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":16.0,"y":16.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":1.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      hamsterAnimationsWithOutline_0: -3610151120331798575
+      hamsterAnimationsWithOutline_1: 4356378048387425279
+      hamsterAnimationsWithOutline_10: -6353016909662313279
+      hamsterAnimationsWithOutline_11: -2465501223427775015
+      hamsterAnimationsWithOutline_12: -2087505975689812982
+      hamsterAnimationsWithOutline_13: -5590580700009286086
+      hamsterAnimationsWithOutline_14: 5934979081053101495
+      hamsterAnimationsWithOutline_15: -350581880713008648
+      hamsterAnimationsWithOutline_16: 4828597047941762542
+      hamsterAnimationsWithOutline_17: -4503170545206565313
+      hamsterAnimationsWithOutline_18: -7098582086177969847
+      hamsterAnimationsWithOutline_19: -2421029067302146429
+      hamsterAnimationsWithOutline_2: -8713664665214862154
+      hamsterAnimationsWithOutline_20: -4407147053791717705
+      hamsterAnimationsWithOutline_21: 4239746743633210425
+      hamsterAnimationsWithOutline_22: -3660212318236430277
+      hamsterAnimationsWithOutline_23: -742290863456429111
+      hamsterAnimationsWithOutline_24: -7204102711750607360
+      hamsterAnimationsWithOutline_25: -5651138198299866489
+      hamsterAnimationsWithOutline_26: -1419864348657691186
+      hamsterAnimationsWithOutline_27: -8139733860116730502
+      hamsterAnimationsWithOutline_28: -4389856912821611177
+      hamsterAnimationsWithOutline_29: -1352106130025743374
+      hamsterAnimationsWithOutline_3: -6718675766227243513
+      hamsterAnimationsWithOutline_30: -1596965871164727160
+      hamsterAnimationsWithOutline_31: 8519088690818835931
+      hamsterAnimationsWithOutline_32: -8833775357525897409
+      hamsterAnimationsWithOutline_33: 5080571045248487936
+      hamsterAnimationsWithOutline_34: -2032211560046135010
+      hamsterAnimationsWithOutline_35: 7885191623943827255
+      hamsterAnimationsWithOutline_36: 236594593442799134
+      hamsterAnimationsWithOutline_37: 6512437158083685392
+      hamsterAnimationsWithOutline_38: -276919020792270391
+      hamsterAnimationsWithOutline_39: -4128297884404863735
+      hamsterAnimationsWithOutline_4: -8554982920913600984
+      hamsterAnimationsWithOutline_40: -1787673409745114343
+      hamsterAnimationsWithOutline_41: 2428161629895157901
+      hamsterAnimationsWithOutline_42: -4754951157328339121
+      hamsterAnimationsWithOutline_43: -5436329172931411211
+      hamsterAnimationsWithOutline_44: -1261238088685665168
+      hamsterAnimationsWithOutline_45: -3690876883713522519
+      hamsterAnimationsWithOutline_46: -5209107472809956933
+      hamsterAnimationsWithOutline_47: 3644725845700190220
+      hamsterAnimationsWithOutline_48: -2534609983734129468
+      hamsterAnimationsWithOutline_49: -5319832187858469535
+      hamsterAnimationsWithOutline_5: -7094801057747074512
+      hamsterAnimationsWithOutline_50: 2027622034120722552
+      hamsterAnimationsWithOutline_51: -2439140470313074681
+      hamsterAnimationsWithOutline_52: 9205293623990070371
+      hamsterAnimationsWithOutline_53: -2829430753360777012
+      hamsterAnimationsWithOutline_54: -730977813730690620
+      hamsterAnimationsWithOutline_55: -3597360926385318151
+      hamsterAnimationsWithOutline_56: 3432030165520461768
+      hamsterAnimationsWithOutline_57: 2376577965855667067
+      hamsterAnimationsWithOutline_58: 2166829640561166555
+      hamsterAnimationsWithOutline_59: 5974392348043386108
+      hamsterAnimationsWithOutline_6: 2297315670257728257
+      hamsterAnimationsWithOutline_60: -455214769809554916
+      hamsterAnimationsWithOutline_61: 8007746176944971565
+      hamsterAnimationsWithOutline_62: -2910321597042419833
+      hamsterAnimationsWithOutline_63: 354977558354603065
+      hamsterAnimationsWithOutline_7: -3181145295185869038
+      hamsterAnimationsWithOutline_8: 7310799416750794319
+      hamsterAnimationsWithOutline_9: 1779723523336984622
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
