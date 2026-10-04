@@ -1111,7 +1111,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Carryable
   PlayersNeeded: 2
-  pointValue: 3000
+  PointValue: 3000
   Bounds:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0, y: 0, z: 0}
@@ -1389,7 +1389,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Carryable
   PlayersNeeded: 2
-  pointValue: 1400
+  PointValue: 1400
   Bounds:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0, y: 0, z: 0}
@@ -12605,7 +12605,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Carryable
   PlayersNeeded: 2
-  pointValue: 1000
+  PointValue: 1000
   Bounds:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0, y: 0, z: 0}
@@ -40838,7 +40838,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Carryable
   PlayersNeeded: 1
-  pointValue: 400
+  PointValue: 400
   Bounds:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0, y: 0, z: 0}
@@ -42389,7 +42389,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Carryable
   PlayersNeeded: 2
-  pointValue: 300
+  PointValue: 300
   Bounds:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0, y: 0, z: 0}
@@ -46980,7 +46980,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Carryable
   PlayersNeeded: 2
-  pointValue: 4000
+  PointValue: 4000
   Bounds:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0, y: 0, z: 0}
@@ -47491,7 +47491,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Carryable
   PlayersNeeded: 1
-  pointValue: 200
+  PointValue: 200
   Bounds:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0, y: 0, z: 0}
@@ -47890,7 +47890,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Carryable
   PlayersNeeded: 2
-  pointValue: 1000
+  PointValue: 1000
   Bounds:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0, y: 0, z: 0}
@@ -48030,7 +48030,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Carryable
   PlayersNeeded: 1
-  pointValue: 200
+  PointValue: 200
   Bounds:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0, y: 0, z: 0}
@@ -48312,7 +48312,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Carryable
   PlayersNeeded: 2
-  pointValue: 500
+  PointValue: 500
   Bounds:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0, y: 0, z: 0}
@@ -48553,6 +48553,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2101811034}
   - component: {fileID: 2101811035}
+  - component: {fileID: 2101811036}
   m_Layer: 0
   m_Name: DropoffArea
   m_TagString: Untagged
@@ -48621,6 +48622,19 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 2.8824081, y: 4.493129}
   m_EdgeRadius: 0
+--- !u!114 &2101811036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2101811033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8edca3020f74d2e4ba31a6bbc754a946, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  scorer: {fileID: 1350912879}
 --- !u!1 &2116527421
 GameObject:
   m_ObjectHideFlags: 0
@@ -48729,7 +48743,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Carryable
   PlayersNeeded: 2
-  pointValue: 2500
+  PointValue: 2500
   Bounds:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0, y: 0, z: 0}
