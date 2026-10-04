@@ -188,16 +188,16 @@ public class CarryController : MonoBehaviour
             carryablesInRange.Remove(carryable);
         }
         var locker = collision.GetComponent<Locker>();
-        if (locker != null) 
+        if (locker != null)
         {
             lockerOnRange = false;
 
-        if (carryablesInRange.Count == 0)
-        {
-            Einteract.enabled = false;
+            if (carryablesInRange.Count == 0)
+            {
+                Einteract.enabled = false;
 
+            }
         }
+
     }
-
-
 }
