@@ -30,13 +30,9 @@ public class PlayerInputManager : MonoBehaviour
         }
 
         player1.transform.position = spawnPoints[0].position;
-        Animator playerOne = player1.gameObject.GetComponent<Animator>();
-        playerOne.runtimeAnimatorController = yellowHamster;
-
-
-        player2 = PlayerInput.Instantiate(playerPrefab, controlScheme: "Arrows", pairWithDevice: Keyboard.current);
         player2.transform.position = spawnPoints[1].position;
-        Animator playerTwo = player1.gameObject.GetComponent<Animator>();
-        playerTwo.runtimeAnimatorController = orangeHamster;
+
+        player1.GetComponent<Animator>().runtimeAnimatorController = yellowHamster;
+        player2.GetComponent<Animator>().runtimeAnimatorController = orangeHamster;
     }
 }

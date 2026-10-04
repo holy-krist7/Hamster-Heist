@@ -12289,6 +12289,84 @@ Transform:
   - {fileID: 558407021}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &465979380
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 465979381}
+  - component: {fileID: 465979382}
+  m_Layer: 0
+  m_Name: DropOffArea
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &465979381
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 465979380}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1172686558}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &465979382
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 465979380}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: -8.737223, y: -0.9068084}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 2.6420593, y: 4.039034}
+  m_EdgeRadius: 0
 --- !u!1 &487370801
 GameObject:
   m_ObjectHideFlags: 0
@@ -12798,8 +12876,8 @@ GameObject:
   - component: {fileID: 789737692}
   - component: {fileID: 789737694}
   - component: {fileID: 789737693}
-  - component: {fileID: 789737696}
-  - component: {fileID: 789737695}
+  - component: {fileID: 835103604}
+  - component: {fileID: 835103607}
   m_Layer: 0
   m_Name: Ground
   m_TagString: Untagged
@@ -40674,8 +40752,6 @@ GameObject:
   m_Component:
   - component: {fileID: 835103606}
   - component: {fileID: 835103605}
-  - component: {fileID: 835103604}
-  - component: {fileID: 835103607}
   m_Layer: 5
   m_Name: InGameUI
   m_TagString: Untagged
@@ -40695,17 +40771,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 709c8d6349be44c68dff3d220992400c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.CanvasScaler
-  m_UiScaleMode: 1
-  m_ReferencePixelsPerUnit: 100
-  m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
-  m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
-  m_PhysicalUnit: 3
-  m_FallbackScreenDPI: 96
-  m_DefaultSpriteDPI: 96
-  m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
+  m_AffectedAgents: ffffffffi
+  m_TileModifiers: []
 --- !u!223 &835103605
 Canvas:
   m_ObjectHideFlags: 0
@@ -40743,7 +40810,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1037187404}
-  - {fileID: 1385322032}
   - {fileID: 2027007062}
   - {fileID: 1006183127}
   m_Father: {fileID: 0}
@@ -40765,10 +40831,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9809bf1345abc5648af68b3a82653f08, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  timerText: {fileID: 1385322030}
-  finalTimerText: {fileID: 2027007063}
-  alarm: {fileID: 1006183126}
-  remainingTime: 20
+  m_OverrideArea: 0
+  m_Area: 0
+  m_IgnoreFromBuild: 0
+  m_AffectedAgents: ffffffffi
 --- !u!1 &853569573
 GameObject:
   m_ObjectHideFlags: 0
@@ -42355,7 +42421,7 @@ Transform:
   m_Children:
   - {fileID: 487370802}
   - {fileID: 319353322}
-  - {fileID: 2101811034}
+  - {fileID: 465979381}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1310013165
@@ -42492,6 +42558,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Timer
   timerText: {fileID: 1385322030}
+  finalTimerText: {fileID: 2027007063}
+  alarm: {fileID: 1006183126}
   remainingTime: 300
 --- !u!114 &1350912879
 MonoBehaviour:
@@ -47015,7 +47083,7 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 60a10cc2a7cbc3041bbda29470609f08, type: 2}
   - serializedVersion: 2
     m_RefCount: 0
-    m_Data: {fileID: 2018864444}
+    m_Data: {fileID: 0}
   - serializedVersion: 2
     m_RefCount: 205
     m_Data: {fileID: 11400000, guid: f84d31f22604e7947bfce7958f10291a, type: 2}
@@ -48339,7 +48407,6 @@ Transform:
   - {fileID: 853569574}
   - {fileID: 1713725565}
   - {fileID: 1625847603}
-  - {fileID: 2116527422}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2027007061
@@ -48496,3 +48563,5 @@ SceneRoots:
   - {fileID: 835103606}
   - {fileID: 3474073}
   - {fileID: 1124313025}
+  - {fileID: 1310013168}
+  - {fileID: 1350912877}
