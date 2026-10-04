@@ -1,16 +1,15 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class SuccessScreenController : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public void OnRestartClick()
     {
-        
+        SceneManager.LoadScene("TestScene");
     }
 
-    // Update is called once per frame
-    void Update()
+    public void OnExitClick()
     {
-        
+        SceneManager.LoadScene("TitleScreen");
     }
 }
