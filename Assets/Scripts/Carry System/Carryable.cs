@@ -8,6 +8,8 @@ using UnityEngine.InputSystem;
 public class Carryable : MonoBehaviour
 {
     public int PlayersNeeded;
+    public int PointValue;
+
     [HideInInspector] public Bounds Bounds;
     
     [HideInInspector] public List<CarryController> PlayersCarrying = new();

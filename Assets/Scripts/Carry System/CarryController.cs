@@ -83,6 +83,8 @@ public class CarryController : MonoBehaviour
 
         if (context.performed)
         {
+            carryablesInRange.RemoveAll(c => c == null);
+
             if (currentlyCarrying != null)
             {
                 DropCarryable();
