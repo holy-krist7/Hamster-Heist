@@ -31,5 +31,11 @@ public class PlayerInputManager : MonoBehaviour
 
         player1.transform.position = spawnPoints[0].position;
         player2.transform.position = spawnPoints[1].position;
+
+        Animator playerOne = player1.gameObject.GetComponent<Animator>();
+        playerOne.runtimeAnimatorController = yellowHamster;
+
+        Animator playerTwo = player1.gameObject.GetComponent<Animator>();
+        playerTwo.runtimeAnimatorController = orangeHamster;
     }
 }
