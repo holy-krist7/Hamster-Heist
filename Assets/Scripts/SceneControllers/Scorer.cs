@@ -1,5 +1,4 @@
 using TMPro;
-using Unity.Collections.Tests.CoreCLR.TestJobs;
 using UnityEngine;
 
 public class Scorer : MonoBehaviour
