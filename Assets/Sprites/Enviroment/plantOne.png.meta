@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: a21ca205584c0234dba0cd8f334f841e
+guid: 75c7bc28dc74d754e8dd75c916863cd0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4487708065891476013
-    second: statueTwoLarge_0
+      213: -4919753453147770263
+    second: plantOne_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -102,13 +102,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: statueTwoLarge_0
+      name: plantOne_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 32
-        height: 48
+        y: 11
+        width: 16
+        height: 21
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -117,8 +117,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d22ed1385ba874e30800000000000000
-      internalID: 4487708065891476013
+      spriteID: 96230a2ec4689bbb0800000000000000
+      internalID: -4919753453147770263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plantOne_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 418654270fc3ee848ba6292be63b59ce
+      internalID: 931635010
       vertices: []
       indices: 
       edges: []
@@ -127,7 +149,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5de1230ce101e2c41b0464f335156336
+    spriteID: b970984f2b33b6f48b1c1fc50bdff8b5
     internalID: 0
     vertices: []
     indices: 
@@ -137,9 +159,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":48.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":2.0},"gridSpriteSize":{"x":16.0,"y":16.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      statueTwoLarge_0: 4487708065891476013
+      plantOne_0: -4919753453147770263
+      plantOne_1: 931635010
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

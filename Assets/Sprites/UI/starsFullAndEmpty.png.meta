@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: a21ca205584c0234dba0cd8f334f841e
+guid: f73ee707e09941d48a0077007284eb42
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4487708065891476013
-    second: statueTwoLarge_0
+      213: 3326247426848954054
+    second: starsFullAndEmpty_0
+  - first:
+      213: 2220485245463427331
+    second: starsFullAndEmpty_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -102,23 +105,45 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: statueTwoLarge_0
+      name: starsFullAndEmpty_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 32
-        height: 48
+        width: 192
+        height: 161
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d22ed1385ba874e30800000000000000
-      internalID: 4487708065891476013
+      spriteID: 6c693685964392e20800000000000000
+      internalID: 3326247426848954054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: starsFullAndEmpty_1
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 0
+        width: 192
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 309f7dce09fb0de10800000000000000
+      internalID: 2220485245463427331
       vertices: []
       indices: 
       edges: []
@@ -127,7 +152,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5de1230ce101e2c41b0464f335156336
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -135,11 +160,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":48.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
-      statueTwoLarge_0: 4487708065891476013
+      starsFullAndEmpty_0: 3326247426848954054
+      starsFullAndEmpty_1: 2220485245463427331
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

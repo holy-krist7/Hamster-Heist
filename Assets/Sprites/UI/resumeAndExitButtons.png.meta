@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: a21ca205584c0234dba0cd8f334f841e
+guid: 48336620949bc1e49819dab5abac52b1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4487708065891476013
-    second: statueTwoLarge_0
+      213: -4337256407542034974
+    second: resumeAndExitButtons_0
+  - first:
+      213: -7549982620710012650
+    second: resumeAndExitButtons_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -102,23 +105,45 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: statueTwoLarge_0
+      name: resumeAndExitButtons_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 32
-        height: 48
+        y: 108
+        width: 287
+        height: 93
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d22ed1385ba874e30800000000000000
-      internalID: 4487708065891476013
+      spriteID: 2ed8ba0f648fec3c0800000000000000
+      internalID: -4337256407542034974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: resumeAndExitButtons_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 287
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 619f438dec2193790800000000000000
+      internalID: -7549982620710012650
       vertices: []
       indices: 
       edges: []
@@ -127,7 +152,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5de1230ce101e2c41b0464f335156336
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -135,11 +160,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":48.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
-      statueTwoLarge_0: 4487708065891476013
+      resumeAndExitButtons_0: -4337256407542034974
+      resumeAndExitButtons_1: -7549982620710012650
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
