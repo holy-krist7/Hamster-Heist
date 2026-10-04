@@ -51,14 +51,14 @@ public class CarryController : MonoBehaviour
         if (c.PlayersCarrying.Count == 0)
         {
             pc.AddSource(new() { sourceTransform = c.transform, weight = 1 });
-            pc.translationOffset = c.Bounds.extents * new Vector2(-1,-0.8f);
+            pc.translationOffset = c.Bounds.extents * new Vector2(-1, -0.8f);
 
             animator.SetBool("isSecondCarrier", false);
         }
         else
         {
             pc.AddSource(new() { sourceTransform = c.transform, weight = 1 });
-            pc.translationOffset = c.Bounds.extents * new Vector2(1,-0.8f);
+            pc.translationOffset = c.Bounds.extents * new Vector2(1, -0.8f);
 
             animator.SetBool("isSecondCarrier", true);
         }
@@ -100,7 +100,7 @@ public class CarryController : MonoBehaviour
                 BeginCarrying(carryablesInRange[0]);
             }
 
-            if(lockerOnRange) 
+            if (lockerOnRange)
             {
                 Hide();
             }
@@ -114,13 +114,13 @@ public class CarryController : MonoBehaviour
 
     public void OnSpecial(InputAction.CallbackContext context)
     {
-        if(context.performed && dropOffArea != null)
+        if (context.performed && dropOffArea != null)
         {
             dropOffArea.ToggleReady(this);
         }
     }
 
-    void Hide() 
+    void Hide()
     {
         isHiding = !isHiding;
         var sr = transform.parent.gameObject.GetComponent<SpriteRenderer>();
@@ -166,7 +166,7 @@ public class CarryController : MonoBehaviour
         }
 
         var locker = collision.GetComponent<Locker>();
-        if (locker != null) 
+        if (locker != null)
         {
             Debug.Log("Locker In Range");
             lockerOnRange = true;
@@ -186,6 +186,7 @@ public class CarryController : MonoBehaviour
         if (carryable != null)
         {
             carryablesInRange.Remove(carryable);
+            Einteract.enabled = false;
         }
         var locker = collision.GetComponent<Locker>();
         if (locker != null)
