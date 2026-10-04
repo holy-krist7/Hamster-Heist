@@ -1,13 +1,17 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(BoxCollider2D))]
 public class DropOffArea : MonoBehaviour
 {
     [SerializeField] private Scorer scorer;
+    private int playersRequired = 2;
 
     private readonly HashSet<Carryable> itemsInZone = new();
     private readonly List<Carryable> toScore = new();
+    private readonly HashSet<CarryController> readyPlayers = new();
+    private bool gameEnded;
 
     private void Awake()
     {
@@ -44,7 +48,9 @@ public class DropOffArea : MonoBehaviour
         foreach (var c in itemsInZone)
         {
             if (c.PlayersCarrying.Count == 0)
+            {
                 toScore.Add(c);
+            }
         }
 
         foreach (var c in toScore)
@@ -53,5 +59,30 @@ public class DropOffArea : MonoBehaviour
             itemsInZone.Remove(c);
             Destroy(c.gameObject);
         }
+    }
+
+    public void ToggleReady(CarryController player)
+    {
+        if (gameEnded)
+        {
+            return;
+        }
+
+        if (!readyPlayers.Remove(player))
+        {
+            readyPlayers.Add(player);
+        }
+
+        if (readyPlayers.Count >= playersRequired)
+        {
+            gameEnded = true;
+            Debug.Log("Swithcing scene");
+            SceneManager.LoadScene("SuccessScreen");
+        }
+    }
+
+    public void ClearReady(CarryController player)
+    {
+        readyPlayers.Remove(player);
     }
 }

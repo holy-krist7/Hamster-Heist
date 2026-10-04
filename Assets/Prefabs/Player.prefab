@@ -127,6 +127,7 @@ GameObject:
   - component: {fileID: 3367016787520108055}
   - component: {fileID: 5770252752173441245}
   - component: {fileID: 6133918540160395168}
+  - component: {fileID: 3673632571488349655}
   m_Layer: 3
   m_Name: Player
   m_TagString: Player
@@ -343,6 +344,22 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: fbede367-00c1-4dff-a12c-0744f6c55d55
     m_ActionName: 'Player/Carry[/Keyboard/e,/Keyboard/m]'
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7811943532905984106}
+        m_TargetAssemblyTypeName: CarryController, Assembly-CSharp
+        m_MethodName: OnSpecial
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 2f60b3a6-80d6-41f2-9c50-03a98ae89001
+    m_ActionName: 'Player/Special[/Keyboard/q,/Keyboard/n]'
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
