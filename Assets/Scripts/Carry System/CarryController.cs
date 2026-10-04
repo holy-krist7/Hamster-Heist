@@ -8,7 +8,7 @@ using UnityEngine.InputSystem;
 public class CarryController : MonoBehaviour
 {
     public SpriteRenderer Einteract;
-    public RectTransform Qinteract;
+    public Transform Qinteract;
     public Vector2 playerMoveInput;
     private List<Carryable> carryablesInRange = new();
     private Carryable currentlyCarrying;
