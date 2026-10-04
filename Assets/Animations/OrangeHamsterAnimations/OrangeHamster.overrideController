@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: OrangeHamster
+  m_Controller: {fileID: 9100000, guid: 7281d9aca8c0ba040bd7a127dbe54444, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 669c0146e1fa7eb429872fb5b055f239, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: e47f850265415ec4eb4465a05cb926a4, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 3681775c1b00f284ca9a3b4542a585db, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 06673f1486534444a86cef1a9a934a10, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 1008d7d414f4ba54aabfc2b851ddd055, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 45c9d9e01b9a8a448a7b3601699cfad7, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: de057802a567a9c4d810a7cdfa14954b, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: aa01c757abb93474aa18335d55c9e1d4, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 9218682fb4a17a84b84dfda52db3bec5, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 3c3d2af4f87d3394ba9ea3842f3c631d, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: aed2f9ed2a4ccd146b1549d7785e8a5d, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: eee6f79015edcfd4184facf18c25edce, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: edff6d0b098b02843b20a651bc2a334b, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 3fb09bdcbc32d3246a85049c85120299, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: f12a2625bd5b1d043be9c1c15b523d1f, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 1111e8952557d28498fbdf2cf1d9840a, type: 2}

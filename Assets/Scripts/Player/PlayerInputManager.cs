@@ -1,10 +1,14 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEditor.Animations;
 
 public class PlayerInputManager : MonoBehaviour
 {
     [SerializeField] private GameObject playerPrefab;
     [SerializeField] private Transform[] spawnPoints;
+
+    [SerializeField] private AnimatorController yellowHamster;
+    [SerializeField] private AnimatorOverrideController orangeHamster;
 
     public static PlayerInput player1;
     public static PlayerInput player2;
