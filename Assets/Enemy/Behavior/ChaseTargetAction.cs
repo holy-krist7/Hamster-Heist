@@ -33,7 +33,7 @@ public partial class ChaseTargetAction : Action
             NavAgent.SetDestination(Target.Value.transform.position);
         }
 
-        if (NavAgent.transform.position != Target.Value.transform.position)
+        if ((Vector2) NavAgent.transform.position != (Vector2) Target.Value.transform.position)
         {
             return Status.Running;
         }

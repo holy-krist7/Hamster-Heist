@@ -12,6 +12,6 @@ public class PlayerInputManager : MonoBehaviour
         player1.transform.position = spawnPoints[0].position;
 
         var player2 = PlayerInput.Instantiate(playerPrefab, controlScheme: "Arrows", pairWithDevice: Keyboard.current);
-        player1.transform.position = spawnPoints[1].position;
+        player2.transform.position = spawnPoints[1].position;
     }
 }
