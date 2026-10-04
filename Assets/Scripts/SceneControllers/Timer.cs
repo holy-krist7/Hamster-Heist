@@ -24,7 +24,7 @@ public class Timer : MonoBehaviour
             finalTimer -= Time.deltaTime * 0.6f; //Make the 'seconds' of the final timer be slightly longer
             timer += Time.deltaTime;
             timerText.gameObject.SetActive(false);
-            transform.Find("Time Background").gameObject.SetActive(false);
+            //transform.Find("Time Background").gameObject.SetActive(false);
             finalTimerText.gameObject.SetActive(true);
 
             if (timer >= 0.75f)
