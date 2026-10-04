@@ -414,7 +414,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   cam: {fileID: 0}
-  padding: {x: 0, y: 0}
+  padding: {x: 0.25, y: 0.25}
 --- !u!1818360608 &6133918540160395168
 PositionConstraint:
   m_ObjectHideFlags: 0
