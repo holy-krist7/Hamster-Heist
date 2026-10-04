@@ -10,7 +10,7 @@ public class Scorer : MonoBehaviour
     private int score = 0;
 
     public const int OneStar = 4000;
-    public const int TwoStars = 800;
+    public const int TwoStars = 8000;
     public const int ThreeStars = 12000;
 
     public void AddScore(int amount)
