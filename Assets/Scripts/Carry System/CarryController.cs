@@ -7,6 +7,7 @@ using UnityEngine.InputSystem;
 [RequireComponent(typeof(CircleCollider2D))]
 public class CarryController : MonoBehaviour
 {
+    public SpriteRenderer Einteract;
     public Vector2 playerMoveInput;
     private List<Carryable> carryablesInRange = new();
     private Carryable currentlyCarrying;
@@ -124,6 +125,7 @@ public class CarryController : MonoBehaviour
         {
             carryablesInRange.Add(carryable);
             carryablesInRange = carryablesInRange.OrderBy(c => Vector2.Distance(transform.position, c.transform.position)).ToList();
+            Einteract.enabled = true;
 
         }
     }
@@ -140,6 +142,12 @@ public class CarryController : MonoBehaviour
         if (carryable != null)
         {
             carryablesInRange.Remove(carryable);
+        }
+
+        if (carryablesInRange.Count == 0)
+        {
+            Einteract.enabled = false;
+
         }
     }
 
