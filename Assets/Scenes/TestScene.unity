@@ -40537,7 +40537,7 @@ GameObject:
   - component: {fileID: 835103605}
   - component: {fileID: 835103604}
   - component: {fileID: 835103607}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: InGameUI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40603,6 +40603,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1037187404}
   - {fileID: 1385322032}
   - {fileID: 2027007062}
   - {fileID: 1006183127}
@@ -40628,7 +40629,7 @@ MonoBehaviour:
   timerText: {fileID: 1385322030}
   finalTimerText: {fileID: 2027007063}
   alarm: {fileID: 1006183126}
-  remainingTime: 70
+  remainingTime: 20
 --- !u!1 &853569573
 GameObject:
   m_ObjectHideFlags: 0
@@ -40732,7 +40733,7 @@ GameObject:
   - component: {fileID: 1006183127}
   - component: {fileID: 1006183129}
   - component: {fileID: 1006183128}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Alarm Flash
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40838,8 +40839,8 @@ GameObject:
   - component: {fileID: 1037187404}
   - component: {fileID: 1037187406}
   - component: {fileID: 1037187405}
-  m_Layer: 0
-  m_Name: Image
+  m_Layer: 5
+  m_Name: Time Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -40852,17 +40853,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1037187403}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1385322032}
+  m_Father: {fileID: 835103606}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 165, y: 55}
+  m_AnchoredPosition: {x: 284.99997, y: 175.00002}
+  m_SizeDelta: {x: 160, y: 55}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1037187405
 MonoBehaviour:
@@ -40877,7 +40878,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.57254905}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.5882353}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -42199,7 +42200,7 @@ GameObject:
   - component: {fileID: 1385322032}
   - component: {fileID: 1385322031}
   - component: {fileID: 1385322030}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Time
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42253,8 +42254,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 45
-  m_fontSizeBase: 45
+  m_fontSize: 44
+  m_fontSizeBase: 44
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -42313,17 +42314,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1385322029}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1037187404}
+  m_Children: []
   m_Father: {fileID: 835103606}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 285, y: 179}
+  m_AnchoredPosition: {x: 284.99997, y: 175.00002}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1436928721
@@ -43628,7 +43628,7 @@ GameObject:
   - component: {fileID: 2027007062}
   - component: {fileID: 2027007064}
   - component: {fileID: 2027007063}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Final TIme
   m_TagString: Untagged
   m_Icon: {fileID: 0}
