@@ -11,6 +11,7 @@ public class PlayerInputManager : MonoBehaviour
     [SerializeField] private AnimatorController yellowHamster;
     [SerializeField] private AnimatorOverrideController orangeHamster;
     [SerializeField] private Sprite p2sprite;
+    [SerializeField] private GameObject exitInteract;
 
     public static PlayerInput player1;
     public static PlayerInput player2;
