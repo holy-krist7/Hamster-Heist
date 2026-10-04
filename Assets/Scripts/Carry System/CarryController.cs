@@ -7,6 +7,8 @@ using UnityEngine.InputSystem;
 [RequireComponent(typeof(CircleCollider2D))]
 public class CarryController : MonoBehaviour
 {
+    public SpriteRenderer Einteract;
+    public Transform Qinteract;
     public Vector2 playerMoveInput;
     private List<Carryable> carryablesInRange = new();
     private Carryable currentlyCarrying;
@@ -44,6 +46,7 @@ public class CarryController : MonoBehaviour
     void BeginCarrying(Carryable c)
     {
         currentlyCarrying = c;
+        Einteract.enabled = false;
 
         if (c.PlayersCarrying.Count == 0)
         {
@@ -150,6 +153,7 @@ public class CarryController : MonoBehaviour
         if (zone != null)
         {
             dropOffArea = zone;
+            Qinteract.gameObject.SetActive(true);
         }
 
         var carryable = collision.GetComponent<Carryable>();
@@ -157,6 +161,7 @@ public class CarryController : MonoBehaviour
         {
             carryablesInRange.Add(carryable);
             carryablesInRange = carryablesInRange.OrderBy(c => Vector2.Distance(transform.position, c.transform.position)).ToList();
+            Einteract.enabled = true;
 
         }
 
@@ -175,6 +180,7 @@ public class CarryController : MonoBehaviour
         {
             zone.ClearReady(this);
             dropOffArea = null;
+            Qinteract.gameObject.SetActive(false);
         }
         var carryable = collision.GetComponent<Carryable>();
         if (carryable != null)
@@ -185,6 +191,11 @@ public class CarryController : MonoBehaviour
         if (locker != null) 
         {
             lockerOnRange = false;
+
+        if (carryablesInRange.Count == 0)
+        {
+            Einteract.enabled = false;
+
         }
     }
 

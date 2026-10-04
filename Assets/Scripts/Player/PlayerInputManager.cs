@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEditor.Animations;
+using UnityEngine.TextCore.Text;
 
 public class PlayerInputManager : MonoBehaviour
 {
@@ -9,6 +10,8 @@ public class PlayerInputManager : MonoBehaviour
 
     [SerializeField] private AnimatorController yellowHamster;
     [SerializeField] private AnimatorOverrideController orangeHamster;
+    [SerializeField] private Sprite p2sprite;
+    [SerializeField] private GameObject exitInteract;
 
     public static PlayerInput player1;
     public static PlayerInput player2;
@@ -31,5 +34,15 @@ public class PlayerInputManager : MonoBehaviour
 
         player1.transform.position = spawnPoints[0].position;
         player2.transform.position = spawnPoints[1].position;
+
+        Animator playerOne = player1.gameObject.GetComponent<Animator>();
+        playerOne.runtimeAnimatorController = yellowHamster;
+
+        Animator playerTwo = player1.gameObject.GetComponent<Animator>();
+        playerTwo.runtimeAnimatorController = orangeHamster;
+
+        player1.GetComponentInChildren<CarryController>().Qinteract = exitInteract.transform;
+        player2.GetComponentInChildren<CarryController>().Qinteract = exitInteract.transform;
+        player2.GetComponentInChildren<CarryController>().Einteract.sprite = p2sprite;
     }
 }
