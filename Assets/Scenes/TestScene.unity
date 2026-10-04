@@ -49845,6 +49845,7 @@ MonoBehaviour:
   - {fileID: 50170846}
   yellowHamster: {fileID: 9100000, guid: 7281d9aca8c0ba040bd7a127dbe54444, type: 2}
   orangeHamster: {fileID: 22100000, guid: 6b115b910e588ea48a3047034bc8990c, type: 2}
+  p2sprite: {fileID: 0}
 --- !u!1 &1833509013
 GameObject:
   m_ObjectHideFlags: 0
