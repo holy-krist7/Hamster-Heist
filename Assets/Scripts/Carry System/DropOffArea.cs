@@ -1,16 +1,57 @@
+using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(BoxCollider2D))]
 public class DropOffArea : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    [SerializeField] private Scorer scorer;
+
+    private readonly HashSet<Carryable> itemsInZone = new();
+    private readonly List<Carryable> toScore = new();
+
+    private void Awake()
     {
-        
+        GetComponent<BoxCollider2D>().isTrigger = true;
+        if (scorer == null)
+        {
+            scorer = FindFirstObjectByType<Scorer>();
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        
+        var c = other.GetComponentInParent<Carryable>();
+        if (c != null)
+        {
+            itemsInZone.Add(c);
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        var c = other.GetComponentInParent<Carryable>();
+        if (c != null)
+        {
+            itemsInZone.Remove(c);
+        }
+    }
+
+    private void Update()
+    {
+        toScore.Clear();
+        itemsInZone.RemoveWhere(c => c == null);
+
+        foreach (var c in itemsInZone)
+        {
+            if (c.PlayersCarrying.Count == 0)
+                toScore.Add(c);
+        }
+
+        foreach (var c in toScore)
+        {
+            scorer.AddScore(c.PointValue);
+            itemsInZone.Remove(c);
+            Destroy(c.gameObject);
+        }
     }
 }
