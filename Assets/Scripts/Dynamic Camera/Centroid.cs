@@ -8,29 +8,17 @@ public class Centroid : MonoBehaviour
     public Vector3 offset;
     public float smoothSpeed = 1;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Awake()
+    void LateUpdate()
     {
-        player1 = PlayerInputManager.player1.transform;
-        player2 = PlayerInputManager.player2.transform;
-        transform.position = player1.position + offset;
-    }
+        if (player1 == null && PlayerInputManager.player1 != null)
+            player1 = PlayerInputManager.player1.transform;
+        if (player2 == null && PlayerInputManager.player2 != null)
+            player2 = PlayerInputManager.player2.transform;
 
-    // Update is called once per frame
-    void Update()
-    {
-        float totalX = 0f;
-        float totalY = 0f;
-        float totalZ = 0f;
+        // Wait until both players exist
+        if (player1 == null || player2 == null) return;
 
-        totalX += player1.position.x + player2.position.x;
-        totalY += player1.position.y + player2.position.y;
-        totalZ += player1.position.z + player2.position.z;
-
-        float centerX = totalX / 2;
-        float centerY = totalY / 2;
-        float centerZ = totalZ / 2;
-
-        transform.position = new Vector3(centerX, centerY, centerZ);
+        Vector3 center = (player1.position + player2.position) / 2f;
+        transform.position = center + offset;
     }
 }
