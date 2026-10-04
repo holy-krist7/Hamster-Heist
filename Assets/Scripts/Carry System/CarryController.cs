@@ -16,6 +16,7 @@ public class CarryController : MonoBehaviour
     private Animator animator;
     private PlayerMovement pm;
     private PositionConstraint pc;
+    private DropOffArea dropOffArea;
 
 
     private void Awake()
@@ -101,9 +102,23 @@ public class CarryController : MonoBehaviour
         playerMoveInput = context.ReadValue<Vector2>();
     }
 
+    public void OnSpecial(InputAction.CallbackContext context)
+    {
+        if(context.performed && dropOffArea != null)
+        {
+            dropOffArea.ToggleReady(this);
+        }
+    }
+
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        var zone = collision.GetComponent<DropOffArea>();
+        if (zone != null)
+        {
+            dropOffArea = zone;
+        }
+
         var carryable = collision.GetComponent<Carryable>();
         if (carryable != null)
         {
@@ -115,6 +130,12 @@ public class CarryController : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
+        var zone = collision?.GetComponent<DropOffArea>();
+        if (zone != null && zone == dropOffArea)
+        {
+            zone.ClearReady(this);
+            dropOffArea = null;
+        }
         var carryable = collision.GetComponent<Carryable>();
         if (carryable != null)
         {
