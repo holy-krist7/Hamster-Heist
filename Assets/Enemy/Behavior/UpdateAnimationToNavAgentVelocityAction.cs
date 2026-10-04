@@ -31,7 +31,6 @@ public partial class UpdateAnimationToNavAgentVelocityAction : Action
         animator.SetFloat("x", navAgent.velocity.normalized.x);
         animator.SetFloat("y", navAgent.velocity.normalized.y);
 
-
         return Status.Success;
     }
 }

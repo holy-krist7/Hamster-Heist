@@ -22,7 +22,7 @@ public class PlayerInputManager : MonoBehaviour
 
 
         player2 = PlayerInput.Instantiate(playerPrefab, controlScheme: "Arrows", pairWithDevice: Keyboard.current);
-        player1.transform.position = spawnPoints[1].position;
+        player2.transform.position = spawnPoints[1].position;
         Animator playerTwo = player1.gameObject.GetComponent<Animator>();
         playerTwo.runtimeAnimatorController = orangeHamster;
     }
