@@ -1,5 +1,6 @@
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Timer : MonoBehaviour
 {
@@ -16,6 +17,8 @@ public class Timer : MonoBehaviour
         {
             remainingTime = 0;
             // cooldown start
+            // TODO
+            SceneManager.LoadScene("GameOverScene");
         }
         
         int minutes = Mathf.FloorToInt(remainingTime / 60);
