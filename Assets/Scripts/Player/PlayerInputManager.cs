@@ -41,6 +41,8 @@ public class PlayerInputManager : MonoBehaviour
         Animator playerTwo = player1.gameObject.GetComponent<Animator>();
         playerTwo.runtimeAnimatorController = orangeHamster;
 
+        player1.GetComponentInChildren<CarryController>().Qinteract = exitInteract.transform;
+        player2.GetComponentInChildren<CarryController>().Qinteract = exitInteract.transform;
         player2.GetComponentInChildren<CarryController>().Einteract.sprite = p2sprite;
     }
 }
