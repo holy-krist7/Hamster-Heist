@@ -8,6 +8,7 @@ using UnityEngine.InputSystem;
 public class CarryController : MonoBehaviour
 {
     public SpriteRenderer Einteract;
+    public SpriteRenderer Qinteract;
     public Vector2 playerMoveInput;
     private List<Carryable> carryablesInRange = new();
     private Carryable currentlyCarrying;
@@ -43,6 +44,7 @@ public class CarryController : MonoBehaviour
     void BeginCarrying(Carryable c)
     {
         currentlyCarrying = c;
+        Einteract.enabled = false;
 
         if (c.PlayersCarrying.Count == 0)
         {
@@ -118,6 +120,7 @@ public class CarryController : MonoBehaviour
         if (zone != null)
         {
             dropOffArea = zone;
+            Qinteract.enabled = true;
         }
 
         var carryable = collision.GetComponent<Carryable>();
@@ -137,6 +140,7 @@ public class CarryController : MonoBehaviour
         {
             zone.ClearReady(this);
             dropOffArea = null;
+            Qinteract.enabled = false;
         }
         var carryable = collision.GetComponent<Carryable>();
         if (carryable != null)
