@@ -37,12 +37,12 @@ public class VisionCone : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        eventChannel.SendEventMessage(collision.gameObject, true);
+        eventChannel.SendEventMessage(transform.parent.gameObject, collision.gameObject, true);
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        eventChannel.SendEventMessage(collision.gameObject, false);
+        eventChannel.SendEventMessage(transform.parent.gameObject, collision.gameObject, false);
     }
 
 }
