@@ -18,6 +18,10 @@ public class Carryable : MonoBehaviour
     {
         Bounds = GetComponent<BoxCollider2D>().bounds;
         rb = GetComponent<Rigidbody2D>();
+
+        rb.bodyType = RigidbodyType2D.Kinematic;
+        rb.gravityScale = 0;
+        rb.freezeRotation = true;
     }
 
 
@@ -33,6 +37,13 @@ public class Carryable : MonoBehaviour
             avgVel /= PlayersCarrying.Count;
 
             rb.linearVelocity = avgVel * 5;
+        }
+
+
+        if (rb.bodyType == RigidbodyType2D.Dynamic) return;
+        var a = new List<Collider2D>();
+        if (rb.Overlap(new ContactFilter2D { useLayerMask = true, layerMask = LayerMask.GetMask("Default")},a) == 0) {
+            rb.bodyType = RigidbodyType2D.Dynamic;
         }
     }
 
