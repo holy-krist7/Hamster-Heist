@@ -971,7 +971,7 @@ GameObject:
   - component: {fileID: 233688073}
   - component: {fileID: 233688072}
   m_Layer: 7
-  m_Name: statueTwoLarge_0
+  m_Name: Athena
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1248,7 +1248,7 @@ GameObject:
   - component: {fileID: 296687004}
   - component: {fileID: 296687003}
   m_Layer: 7
-  m_Name: statueOneLarge_0
+  m_Name: Thinker
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12509,7 +12509,7 @@ GameObject:
   - component: {fileID: 650174213}
   - component: {fileID: 650174212}
   m_Layer: 7
-  m_Name: paintingTwoMedium_0
+  m_Name: Adam
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -40741,7 +40741,7 @@ GameObject:
   - component: {fileID: 853569577}
   - component: {fileID: 853569576}
   m_Layer: 7
-  m_Name: jewleryTwo_2
+  m_Name: Necklace
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -42291,7 +42291,7 @@ GameObject:
   - component: {fileID: 1376567636}
   - component: {fileID: 1376567635}
   m_Layer: 7
-  m_Name: paintingFourSmall_0
+  m_Name: Pearl
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -46881,7 +46881,7 @@ GameObject:
   - component: {fileID: 1597300107}
   - component: {fileID: 1597300106}
   m_Layer: 7
-  m_Name: paintingThreeLarge_0
+  m_Name: Minecraft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -47391,7 +47391,7 @@ GameObject:
   - component: {fileID: 1625847606}
   - component: {fileID: 1625847605}
   m_Layer: 7
-  m_Name: jewleryOne_2
+  m_Name: Crown
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -47743,7 +47743,7 @@ GameObject:
   - component: {fileID: 1704349058}
   - component: {fileID: 1704349057}
   m_Layer: 7
-  m_Name: statueThreeLarge_0
+  m_Name: Disk
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -47928,7 +47928,7 @@ GameObject:
   - component: {fileID: 1713725568}
   - component: {fileID: 1713725567}
   m_Layer: 7
-  m_Name: jewleryThree_2
+  m_Name: Gem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -48209,7 +48209,7 @@ GameObject:
   - component: {fileID: 1833509017}
   - component: {fileID: 1833509016}
   m_Layer: 7
-  m_Name: paintingOneSmall_0
+  m_Name: MonaLisa
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
