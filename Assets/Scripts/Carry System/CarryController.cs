@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.Animations;
 using UnityEngine.InputSystem;
 
+[RequireComponent(typeof(CircleCollider2D))]
 public class CarryController : MonoBehaviour
 {
     public Vector2 playerMoveInput;

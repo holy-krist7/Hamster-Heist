@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 66183584975576776}
   - component: {fileID: 928702806698059262}
   - component: {fileID: 7811943532905984106}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: GrabController
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -127,8 +127,7 @@ GameObject:
   - component: {fileID: 3367016787520108055}
   - component: {fileID: 5770252752173441245}
   - component: {fileID: 6133918540160395168}
-  - component: {fileID: 3673632571488349655}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
