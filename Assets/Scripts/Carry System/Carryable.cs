@@ -21,7 +21,7 @@ public class Carryable : MonoBehaviour
 
     private void Update()
     {
-        if (PlayersCarrying.Count == PlayersNeeded)
+        if (PlayersCarrying.Count >= PlayersNeeded)
         {
             Vector2 avgVel = new();
             foreach ( var player in PlayersCarrying)
@@ -57,7 +57,7 @@ public class Carryable : MonoBehaviour
 
     void TryMount()
     {
-        if (PlayersCarrying.Count == PlayersNeeded)
+        if (PlayersCarrying.Count >= PlayersNeeded)
         {
             foreach (var player in PlayersCarrying)
             {
@@ -72,6 +72,11 @@ public class Carryable : MonoBehaviour
         foreach (var player in PlayersCarrying)
         {
             player.OnCarryableUnmounted();
+        }
+
+        if (PlayersCarrying.Count == 0)
+        {
+            rb.linearVelocity = Vector2.zero;
         }
 
     }

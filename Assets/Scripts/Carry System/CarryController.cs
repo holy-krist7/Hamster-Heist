@@ -44,19 +44,22 @@ public class CarryController : MonoBehaviour
         if (c.PlayersCarrying.Count == 0)
         {
             pc.AddSource(new() { sourceTransform = c.transform, weight = 1 });
-            pc.translationOffset = c.Bounds.min;
-            pc.constraintActive = true;
+            pc.translationOffset = c.Bounds.extents * new Vector2(-1,-0.8f);
 
-            pm.enabled = false;
+            animator.SetBool("isSecondCarrier", false);
         }
         else
         {
             pc.AddSource(new() { sourceTransform = c.transform, weight = 1 });
-            pc.translationOffset = c.Bounds.min * new Vector2(-1,1);
-            pc.constraintActive = true;
+            pc.translationOffset = c.Bounds.extents * new Vector2(1,-0.8f);
 
-            pm.enabled = false;
+            animator.SetBool("isSecondCarrier", true);
         }
+        pm.enabled = false;
+
+        pc.constraintActive = true;
+        animator.SetBool("isCarrying", true);
+        animator.SetBool("isHeavy", c.PlayersNeeded > 1);
 
         c.TryCarry(this);
     }
@@ -70,6 +73,7 @@ public class CarryController : MonoBehaviour
         pc.RemoveSource(0);
 
         pm.enabled = true;
+        animator.SetBool("isCarrying", false);
     }
 
     public void OnCarry(InputAction.CallbackContext context)
