@@ -11,6 +11,8 @@ public class CarryController : MonoBehaviour
     private List<Carryable> carryablesInRange = new();
     private Carryable currentlyCarrying;
     private bool isCarryableMounted;
+    private bool lockerOnRange = false;
+    private bool isHiding = false;
 
     // references
     private Animator animator;
@@ -94,6 +96,11 @@ public class CarryController : MonoBehaviour
             {
                 BeginCarrying(carryablesInRange[0]);
             }
+
+            if(lockerOnRange) 
+            {
+                Hide();
+            }
         }
     }
 
@@ -107,6 +114,32 @@ public class CarryController : MonoBehaviour
         if(context.performed && dropOffArea != null)
         {
             dropOffArea.ToggleReady(this);
+        }
+    }
+
+    void Hide() 
+    {
+        isHiding = !isHiding;
+        var sr = transform.parent.gameObject.GetComponent<SpriteRenderer>();
+        var rb = transform.parent.gameObject.GetComponent<Rigidbody2D>();
+        var col = transform.parent.gameObject.GetComponent<CircleCollider2D>();
+
+        if (isHiding)
+        {
+            Debug.Log("Player Is Hiding");
+            sr.enabled = false;
+            rb.linearVelocity = Vector2.zero;
+            col.enabled = false;
+            pm.enabled = false;
+            rb.bodyType = RigidbodyType2D.Kinematic;
+        }
+        else
+        {
+            Debug.Log("Player Exited Locker");
+            sr.enabled = true;
+            col.enabled = true;
+            pm.enabled = true;
+            rb.bodyType = RigidbodyType2D.Dynamic;
         }
     }
 
@@ -126,6 +159,13 @@ public class CarryController : MonoBehaviour
             carryablesInRange = carryablesInRange.OrderBy(c => Vector2.Distance(transform.position, c.transform.position)).ToList();
 
         }
+
+        var locker = collision.GetComponent<Locker>();
+        if (locker != null) 
+        {
+            Debug.Log("Locker In Range");
+            lockerOnRange = true;
+        }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
@@ -140,6 +180,11 @@ public class CarryController : MonoBehaviour
         if (carryable != null)
         {
             carryablesInRange.Remove(carryable);
+        }
+        var locker = collision.GetComponent<Locker>();
+        if (locker != null) 
+        {
+            lockerOnRange = false;
         }
     }
 

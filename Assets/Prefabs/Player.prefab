@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 66183584975576776}
   - component: {fileID: 928702806698059262}
   - component: {fileID: 7811943532905984106}
+  - component: {fileID: 751519790600802774}
   m_Layer: 7
   m_Name: GrabController
   m_TagString: Untagged
@@ -110,6 +111,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   playerMoveInput: {x: 0, y: 0}
+--- !u!114 &751519790600802774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4446639939444538502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 694340fec5e069a4b8a8d8ccbf72f9a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
 --- !u!1 &6437793670160099656
 GameObject:
   m_ObjectHideFlags: 0
@@ -121,7 +134,6 @@ GameObject:
   - component: {fileID: 1933123176626363095}
   - component: {fileID: 2146423357065602739}
   - component: {fileID: 4828662030935446813}
-  - component: {fileID: 8561049892330020688}
   - component: {fileID: 2141824827486604994}
   - component: {fileID: 3211132770038904416}
   - component: {fileID: 3367016787520108055}
@@ -238,43 +250,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!70 &8561049892330020688
-CapsuleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6437793670160099656}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: -0.003879726, y: -0.12803179}
-  m_Size: {x: 0.7439364, y: 0.7439364}
-  m_Direction: 0
 --- !u!114 &2141824827486604994
 MonoBehaviour:
   m_ObjectHideFlags: 0
