@@ -8,7 +8,7 @@ using UnityEngine.InputSystem;
 public class Carryable : MonoBehaviour
 {
     public int PlayersNeeded;
-    public int pointValue;
+    public int PointValue;
 
     [HideInInspector] public Bounds Bounds;
     
