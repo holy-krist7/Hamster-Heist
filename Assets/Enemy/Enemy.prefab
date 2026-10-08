@@ -171,11 +171,7 @@ MonoBehaviour:
   m_Graph: {fileID: 953655315292741278, guid: 4dc7458aec16701409ae3b23d64d27bb, type: 2}
   m_BlackboardVariableOverridesList:
   - rid: 5650217716856914041
-  - rid: 5650217716856914402
-  - rid: 5650217716856914802
-  - rid: 5650217724072690173
-  - rid: 5650217733615517807
-  - rid: 5650217810295521488
+  - rid: 5650217817828229280
   - rid: 5650217810295522286
   m_OriginalGraph: {fileID: 0}
   m_IsInitialised: 0
@@ -191,46 +187,6 @@ MonoBehaviour:
           m_Value1: 0
         Name: Self
         m_Value: {fileID: 1230395318306110650}
-    - rid: 5650217716856914402
-      type: {class: 'BlackboardVariable`1[[EnemyVisionEvent, Assembly-CSharp]]', ns: Unity.Behavior, asm: Unity.Behavior}
-      data:
-        GUID:
-          m_Value0: 3538788720024314241
-          m_Value1: 4244451325832542847
-        Name: EnemyVisionEvent
-        m_Value: {fileID: 11400000, guid: 99ea41c79d5060b47b83517f877d5681, type: 2}
-    - rid: 5650217716856914802
-      type: {class: 'BlackboardVariable`1[[System.Int32, mscorlib]]', ns: Unity.Behavior, asm: Unity.Behavior}
-      data:
-        GUID:
-          m_Value0: 3590357566951009398
-          m_Value1: 14592982731251231454
-        Name: PatrolPointsSize
-        m_Value: 0
-    - rid: 5650217724072690173
-      type: {class: 'BlackboardVariable`1[[UnityEngine.GameObject, UnityEngine.CoreModule]]', ns: Unity.Behavior, asm: Unity.Behavior}
-      data:
-        GUID:
-          m_Value0: 10681887434089519547
-          m_Value1: 14782353404955540374
-        Name: LastKnownPosPrefab
-        m_Value: {fileID: 1277167153192658674}
-    - rid: 5650217733615517807
-      type: {class: 'BlackboardVariable`1[[UnityEngine.Animator, UnityEngine.AnimationModule]]', ns: Unity.Behavior, asm: Unity.Behavior}
-      data:
-        GUID:
-          m_Value0: 17176868145340385775
-          m_Value1: 16541729012303318292
-        Name: Indicator
-        m_Value: {fileID: 1698426472843942658}
-    - rid: 5650217810295521488
-      type: {class: 'BlackboardVariable`1[[UnityEngine.AI.NavMeshAgent, UnityEngine.AIModule]]', ns: Unity.Behavior, asm: Unity.Behavior}
-      data:
-        GUID:
-          m_Value0: 1232955676174948485
-          m_Value1: 18282309477833119284
-        Name: NavAgent
-        m_Value: {fileID: 889304439472891605}
     - rid: 5650217810295522286
       type: {class: 'BlackboardVariable`1[[UnityEngine.AI.NavMeshAgent, UnityEngine.AIModule]]', ns: Unity.Behavior, asm: Unity.Behavior}
       data:
@@ -239,6 +195,14 @@ MonoBehaviour:
           m_Value1: 15917424023887763272
         Name: NavAgent
         m_Value: {fileID: 889304439472891605}
+    - rid: 5650217817828229280
+      type: {class: 'BlackboardVariable`1[[VisionCone, Assembly-CSharp]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 17339204963117562982
+          m_Value1: 1644837619571998856
+        Name: VisionCone
+        m_Value: {fileID: 1036688786744779842}
 --- !u!195 &889304439472891605
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -426,9 +390,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b08dd2535933b3b4a976d8c6588f2d3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  eventChannel: {fileID: 11400000, guid: 99ea41c79d5060b47b83517f877d5681, type: 2}
   radius: 4
   viewAngle: 40
+  PlayersInSight: 0
 --- !u!60 &5190110630252997705
 PolygonCollider2D:
   m_ObjectHideFlags: 0
