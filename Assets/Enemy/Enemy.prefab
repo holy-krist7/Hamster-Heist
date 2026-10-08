@@ -175,6 +175,8 @@ MonoBehaviour:
   - rid: 5650217716856914802
   - rid: 5650217724072690173
   - rid: 5650217733615517807
+  - rid: 5650217810295521488
+  - rid: 5650217810295522286
   m_OriginalGraph: {fileID: 0}
   m_IsInitialised: 0
   m_IsStarted: 0
@@ -221,6 +223,22 @@ MonoBehaviour:
           m_Value1: 16541729012303318292
         Name: Indicator
         m_Value: {fileID: 1698426472843942658}
+    - rid: 5650217810295521488
+      type: {class: 'BlackboardVariable`1[[UnityEngine.AI.NavMeshAgent, UnityEngine.AIModule]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 1232955676174948485
+          m_Value1: 18282309477833119284
+        Name: NavAgent
+        m_Value: {fileID: 889304439472891605}
+    - rid: 5650217810295522286
+      type: {class: 'BlackboardVariable`1[[UnityEngine.AI.NavMeshAgent, UnityEngine.AIModule]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 743593254014620026
+          m_Value1: 15917424023887763272
+        Name: NavAgent
+        m_Value: {fileID: 889304439472891605}
 --- !u!195 &889304439472891605
 NavMeshAgent:
   m_ObjectHideFlags: 0
