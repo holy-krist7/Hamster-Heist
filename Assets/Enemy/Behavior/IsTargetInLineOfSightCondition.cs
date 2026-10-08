@@ -19,10 +19,9 @@ public partial class IsTargetInLineOfSightCondition : Condition
 
     public override bool IsTrue()
     {
-        var hits = Physics2D.RaycastAll(Self.Value.position, (Target.Value.position - Self.Value.position).normalized, 50, LayerMask.GetMask("Players", "Default"))
-            .Where(h => !h.collider.isTrigger & h.transform != Self.Value).OrderBy(h => h.distance).ToList();
+        var hits = Physics2D.LinecastAll(Self.Value.position, Target.Value.position, LayerMask.GetMask("Default"));
 
-        var result = hits.FindIndex(h => h.transform == Target.Value) == 0;
+        var result = hits.Length == 0;
         result = Comparison == C.IS ? result : !result;
         return result;
     }

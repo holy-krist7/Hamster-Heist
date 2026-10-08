@@ -130,7 +130,7 @@ GameObject:
   - component: {fileID: 2509677398336861133}
   - component: {fileID: 2381652929275015365}
   - component: {fileID: 8660830783723129061}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -173,6 +173,8 @@ MonoBehaviour:
   - rid: 5650217716856914041
   - rid: 5650217817828229280
   - rid: 5650217810295522286
+  - rid: 5650217820016869622
+  - rid: 5650217820207972589
   m_OriginalGraph: {fileID: 0}
   m_IsInitialised: 0
   m_IsStarted: 0
@@ -203,6 +205,22 @@ MonoBehaviour:
           m_Value1: 1644837619571998856
         Name: VisionCone
         m_Value: {fileID: 1036688786744779842}
+    - rid: 5650217820016869622
+      type: {class: 'BlackboardVariable`1[[UnityEngine.Animator, UnityEngine.AnimationModule]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 8537965685617003252
+          m_Value1: 5554445547171297022
+        Name: Indicator
+        m_Value: {fileID: 1698426472843942658}
+    - rid: 5650217820207972589
+      type: {class: 'BlackboardVariable`1[[UnityEngine.Animator, UnityEngine.AnimationModule]]', ns: Unity.Behavior, asm: Unity.Behavior}
+      data:
+        GUID:
+          m_Value0: 8616060872086509932
+          m_Value1: 2696105644041863542
+        Name: SelfAnimator
+        m_Value: {fileID: 5091677227442589920}
 --- !u!195 &889304439472891605
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -356,7 +374,7 @@ GameObject:
   - component: {fileID: 1036688786744779842}
   - component: {fileID: 5190110630252997705}
   - component: {fileID: 4303131977995376444}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: VisionCone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
