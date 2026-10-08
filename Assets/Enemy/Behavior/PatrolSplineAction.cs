@@ -18,8 +18,8 @@ public partial class PatrolSplineAction : Action
     const float TARGET_ADVANCE_INTERVAL = 3;
     const float DISTANCE_FROM_DESTINATION_THRESHOLD = 1;
 
-    private float pathLength = -1;
 
+    private float pathLength = -1;
     private float patrolDirection = 1;
     private Vector3 targetPoint;
     private float targetPointLengthRatio = 0;
@@ -39,7 +39,7 @@ public partial class PatrolSplineAction : Action
         var distanceFromNearestPoint = 
             SplineUtility.GetNearestPoint(Path.Value.Spline, NavAgent.Value.nextPosition - Path.Value.transform.position, out var nearestPoint, out var ratio);
 
-
+        // get nearest point if far from path
         if (distanceFromNearestPoint > TARGET_ADVANCE_INTERVAL) { targetPointLengthRatio = ratio; }
 
         // advance targetPoint by TARGET_ADVANCE_INTERVAL
